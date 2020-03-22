@@ -1,2 +1,2 @@
 # covid19
-OurWorldInData Charts
+[OurWorldInData Charts](https://robertleroy.github.io/covid19/)
