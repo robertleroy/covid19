@@ -3,6 +3,7 @@ const store = new Vuex.Store({
   state: {
     version: "0.0.0",
     countries: [
+      {name: "World", code: "OWID_WRL", checked: true},
       {name: "USA", code: "USA", checked: true},
       {name: "Canada", code: "CAN", checked: false},
       {name: "Mexico", code: "Mex", checked: false},
@@ -14,7 +15,6 @@ const store = new Vuex.Store({
       {name: "China", code: "CHN", checked: false},
       {name: "India", code: "IND", checked: false},
       {name: "Iran", code: "IRN", checked: true},
-      {name: "World", code: "OWID_WRL", checked: true},
     ],
     casesUrl: "https://ourworldindata.org/grapher/total-cases-covid-19?country=",
     newCasesUrl: "https://ourworldindata.org/grapher/daily-cases-covid-19?country=",
