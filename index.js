@@ -3,13 +3,13 @@ const store = new Vuex.Store({
   state: {
     version: "0.0.0",
     countries: [
-      {name: "World", code: "OWID_WRL", checked: true},
+      {name: "World", code: "OWID_WRL", checked: false},
       {name: "USA", code: "USA", checked: true},
       {name: "Canada", code: "CAN", checked: false},
       {name: "Mexico", code: "Mex", checked: false},
-      {name: "United Kingdom", code: "GBR", checked: false},
-      {name: "France", code: "FRA", checked: false},
-      {name: "Germany", code: "GBR", checked: false},
+      {name: "United Kingdom", code: "GBR", checked: true},
+      {name: "France", code: "FRA", checked: true},
+      {name: "Germany", code: "GBR", checked: true},
       {name: "Spain", code: "ESP", checked: true},
       {name: "Italy", code: "ITA", checked: true},
       {name: "China", code: "CHN", checked: false},
