@@ -11,7 +11,7 @@ const store = new Vuex.Store({
       {name: "Peru", code: "PER", checked: true},
       {name: "South Africa", code: "ZAF", checked: true},
       {name: "Mexico", code: "MEX", checked: true},
-      {name: "Chile", code: "CHI", checked: true},
+      {name: "Chile", code: "CHL", checked: true},
       {name: "United Kingdom", code: "GBR", checked: true},
       {name: "Iran", code: "IRN", checked: true},
       {name: "Canada", code: "CAN", checked: false},
